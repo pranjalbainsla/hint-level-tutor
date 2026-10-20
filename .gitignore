@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Training outputs (adapters, checkpoints, eval JSONs)
+runs/
+results/
+toy_run/
+*_ckpt/
+outputs/
+unsloth_compiled_cache/
+wandb/
+
+# Model weights and data caches
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.gguf
+.cache/
+huggingface/
+
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+
+notes.md
